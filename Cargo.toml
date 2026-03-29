@@ -1,0 +1,11 @@
+[package]
+name = "gpu_fqms"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "fqms_tester"
+path = "src/fqms_tester.rs"
+
+[dependencies]
+forge_cv = { path = "../forge_cv" }
